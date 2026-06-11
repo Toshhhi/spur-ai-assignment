@@ -25,9 +25,9 @@ function App() {
 
   const loadHistory = async () => {
   try {
-    const response = await axios.get(
-      `http://localhost:5001/chat/${sessionId}`
-    );
+const response = await axios.get(
+  `${API_URL}/chat/${sessionId}`
+);
 
     setMessages(
       response.data.map(
@@ -73,7 +73,7 @@ function App() {
       setMessage("");
 
       const response = await axios.post(
-        "http://localhost:5001/chat/message",
+        `${API_URL}/chat/message`,
         {
           message: userMessage,
           sessionId,
