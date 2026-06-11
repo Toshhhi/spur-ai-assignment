@@ -9,6 +9,7 @@ type Message = {
 };
 
 function App() {
+  const API_URL = import.meta.env.VITE_API_URL;
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
