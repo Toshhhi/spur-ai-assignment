@@ -26,6 +26,7 @@ A full-stack AI-powered customer support chatbot built for the Spur Founding Eng
 
 * Gemini 2.5 Flash
 
+<img width="2304" height="820" alt="Screenshot 2026-06-11 at 9 19 08 PM" src="https://github.com/user-attachments/assets/6ba615f1-d984-40f0-a235-c5fd64558296" /> 
 ---
 
 ## Features
